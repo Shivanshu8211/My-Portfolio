@@ -97,6 +97,3 @@ npm run deploy
 📍 Based in Hyderabad, India
 
 Let's build the future together. Open to collaborations and opportunities.
-
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
