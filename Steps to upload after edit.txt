@@ -1,0 +1,70 @@
+⚙️ Step 3: Configure vite.config.js
+Update vite.config.js:
+
+js
+Copy
+Edit
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/', // important for user site — no subfolder
+});
+📜 Step 4: Add Static Deployment Script
+In package.json, update scripts like this:
+
+json
+Copy
+Edit
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+We do not need gh-pages here.
+
+🏗️ Step 5: Build the Project
+In your terminal:
+
+bash
+Copy
+Edit
+npm install
+npm run build
+This generates a dist/ folder with the production build.
+
+🛠️ Step 6: Copy dist contents to root
+User pages must serve files from the root, so you need to:
+
+Copy everything inside dist/ to the root of your project (same level as index.html)
+
+Delete everything except these files:
+
+lua
+Copy
+Edit
+your-username.github.io/
+├── index.html
+├── assets/
+├── ...
+You can delete /src, vite.config.js, and node_modules if you're only using this as a static deployment.
+
+🧠 Or, if you want to keep dev source code:
+
+Keep your full project in a subfolder (/src)
+
+Create a GitHub branch like source for dev
+
+Use main only for built static files
+
+📤 Step 7: Commit & Push Your Built Files
+Back in terminal:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Deploy portfolio to GitHub user site"
+git push origin main
+s
