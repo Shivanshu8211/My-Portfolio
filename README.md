@@ -36,6 +36,7 @@
 
 ## 📁 Project Structure
 
+```bash
 my-portfolio/
 ├── public/
 │   └── hero-bg.jpg
@@ -55,6 +56,8 @@ my-portfolio/
 │   ├── main.jsx
 │   └── index.css
 └── index.html
+
+```
 
 ---
 
