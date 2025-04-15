@@ -5,7 +5,6 @@
 > A modern and responsive developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.  
 > Showcasing projects, experience, skills, and ways to connect — all wrapped in a sleek UI.
 
-[![GitHub license](https://img.shields.io/github/license/your-username/my-portfolio?color=blue)](LICENSE)
 [![Live Site](https://img.shields.io/badge/Live%20Site-Click%20Here-success)](https://your-username.github.io/)
 [![React](https://img.shields.io/badge/Made%20With-React-61DAFB.svg?logo=react&logoColor=white)](https://reactjs.org/)
 [![Tailwind](https://img.shields.io/badge/Styled%20With-Tailwind%20CSS-38B2AC.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
